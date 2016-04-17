@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<link rel="stylesheet" href="hello-worldstyle.css">
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">Hey!!!</p>
+<button id="clickButton" class="buttonStyle">click me</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "What Makes YOU Happy?";
+}
+
+
+
+</script>
+<p>
+<html>
+<a href="step2.html">CLICK HERE (after pressing button)</a>
+<img src="http://defhacks.xyz/img/defhacks-logos/defhacks-wordmark-logo-white-green-ny.png" width=420></img>
+<img src="http://images.cooltext.com/4657755.png"></img>
+</html>
+</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://is4-ssl.mzstatic.com/image/thumb/Purple3/v4/75/eb/1b/75eb1b51-1308-e79c-a10a-716d20c3db80/source/1024x1024sr.jpg");
+    background-size:  150%;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'sans-serif';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h3 {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
